@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $address2 = '';
+    return view('welcome',compact('address2'));
 });
+
+Route::resource('distance',App\Http\Controllers\DistanceController::class);
