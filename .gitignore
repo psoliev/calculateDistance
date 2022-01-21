@@ -31,3 +31,8 @@ Homestead.json
 
 .idea/
 /.vscode
+
+.env.example
+.editorconfig
+.gitattributes
+.styleci.yml
